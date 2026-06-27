@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida Turbo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <div id="menu">
+
+        <h1>🏎️ CORRIDA TURBO</h1>
+
+        <p>
+            Desvie dos carros, sobreviva o máximo possível
+            e faça a maior pontuação!
+        </p>
+
+        <button id="startBtn">
+            ▶ Jogar
+        </button>
+
+    </div>
+
+    <!-- HUD -->
+    <div id="hud">
+
+        <div>
+            Pontos:
+            <span id="score">0</span>
+        </div>
+
+        <div>
+            Recorde:
+            <span id="record">0</span>
+        </div>
+
+    </div>
+
+    <!-- ÁREA DO JOGO -->
+    <div id="game">
+
+        <!-- Estrada -->
+        <div id="road">
+
+            <!-- Faixas -->
+            <div class="line"></div>
+            <div class="line"></div>
+
+            <!-- Carro do jogador -->
+            <div id="player">
+                🚗
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- GAME OVER -->
+    <div id="gameOver">
+
+        <h2>💥 Game Over</h2>
+
+        <p>
+            Sua pontuação:
+            <span id="finalScore">0</span>
+        </p>
+
+        <button id="restartBtn">
+            Jogar Novamente
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
